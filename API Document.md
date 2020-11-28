@@ -91,7 +91,7 @@
 ```json
 // request MultiForm
 {
-  "img": "file", // 文件
+  "img": "file",
   "usage": "p"
 }
 
