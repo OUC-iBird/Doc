@@ -10,7 +10,7 @@
 
 域名为 https://weparallelines.top
 
-**注意：**使用 HTTPS
+**注意：** 使用 HTTPS
 
 ### 接口格式
 
@@ -24,7 +24,7 @@
 
 其他额外字段均包含在**数据 data** 字段中。
 
-**注意：**以下所有接口的响应字段除 code 和 msg 均在 data 字段中，为了书写文档简便其他字段与 code 和 msg 字段并列。
+**注意：** 以下所有接口的响应字段除 code 和 msg 字段均在 data 字段中，为了书写文档简便其他字段与 code 和 msg 字段并列。
 
 ## 接口
 
@@ -91,7 +91,7 @@
 ```json
 // request MultiForm
 {
-  "img": file,
+  "img": "file", // 文件
   "usage": "p"
 }
 
