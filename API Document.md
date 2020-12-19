@@ -1112,6 +1112,7 @@
 > | post:username    | string   | 当前动态的发布人用户名（有昵称，则为昵称） |
 > | post:avatar      | string   | 当前动态的发布人头像                       |
 > | post:content     | string   | 当前动态内容                               |
+> | post:path     | string   | 当前动态的图片                               |
 > | post:create_time | string   | 当前动态的发布时间                         |
 > | post:address     | string   | 位置地点（无，则为空）                     |
 > | post:like        | int      | 点赞数                                     |
@@ -1144,6 +1145,7 @@
                 "username": "leo123",
                 "avatar": "avatar/default.jpg",
                 "content": "Hello World",
+                "path": "/picture/20201130223022vfz3sp9cvl.jpg",
                 "create_time": "2020-12-10 11:49:01",
                 "address": "",
                 "like": 0,
@@ -1201,6 +1203,7 @@
 > | post:username    | string   | 当前动态的发布人用户名（有昵称，则为昵称） |
 > | post:avatar      | string   | 当前动态的发布人头像                       |
 > | post:content     | string   | 当前动态内容                               |
+> | post:path     | string   | 当前动态的图片                               |
 > | post:create_time | string   | 当前动态的发布时间                         |
 > | post:address     | string   | 位置地点（无，则为空）                     |
 > | post:like        | int      | 点赞数                                     |
@@ -1230,6 +1233,7 @@
                 "username": "leo123",
                 "avatar": "avatar/default.jpg",
                 "content": "Hello World",
+                "path": "/picture/20201130223022vfz3sp9cvl.jpg",
                 "create_time": "2020-12-10 11:49:01",
                 "address": "",
                 "like": 0,
@@ -1289,6 +1293,7 @@
 > | post:username    | string   | 当前动态的发布人用户名（有昵称，则为昵称） |
 > | post:avatar      | string   | 当前动态的发布人头像                       |
 > | post:content     | string   | 当前动态内容                               |
+> | post:path     | string   | 当前动态的图片                               |
 > | post:create_time | string   | 当前动态的发布时间                         |
 > | post:address     | string   | 位置地点（无，则为空）                     |
 > | post:like        | int      | 点赞数                                     |
@@ -1322,6 +1327,7 @@
                 "username": "leo123",
                 "avatar": "avatar/default.jpg",
                 "content": "Hello World",
+                "path": "/picture/20201130223022vfz3sp9cvl.jpg",
                 "create_time": "2020-12-10 11:49:01",
                 "address": "",
                 "like": 0,
@@ -1445,6 +1451,7 @@
 > | count           | int      | 当前返回点的个数 |
 > | point           | list     | 点的列表         |
 > | point:content   | string   | 点对应动态的内容 |
+> | point:path | string   | 点对应动态的图片 |
 > | point:address   | string   | 点对应的地址     |
 > | point:longitude | float    | 点对应的经度     |
 > | point:latitude  | float    | 点对应的纬度     |
@@ -1470,6 +1477,7 @@
         "point": [
             {
                 "content": "Hello World",
+                "path": "/picture/20201130223022vfz3sp9cvl.jpg",
                 "address": "某个城市",
                 "longitude": 0,
                 "latitude": 0
